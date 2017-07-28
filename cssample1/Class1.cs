@@ -8,7 +8,7 @@ namespace cssample1
 {
     class Class1
     {
-        public int a;
+        public int a { get; set; }
         public Class1(int i)
         {
             a = i;
