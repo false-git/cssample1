@@ -9,5 +9,9 @@ namespace cssample1
     class Class1
     {
         public int a;
+        public Class1(int i)
+        {
+            a = i;
+        }
     }
 }
